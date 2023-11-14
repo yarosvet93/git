@@ -1,5 +1,5 @@
 $Result = dcdiag.exe /skip:SystemLog
-#создаем массив для обьектов
+#создаем массив для обьектов #
 $array = @()
 for ($String = 0; $String -lt $Result.length; $String++) {
      # исправляет перенос CrossRefValidation и CrossRefValidation
